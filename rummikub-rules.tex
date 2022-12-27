@@ -1,0 +1,254 @@
+\documentclass{article}
+\usepackage{caption}
+\usepackage{geometry}
+\geometry{letterpaper, landscape, margin=0.5in}
+\usepackage{multicol}
+
+\begin{document}
+\title{\huge Rummikub\\\medskip
+\normalsize An Explanation of Family Rules\\
+\bigskip
+\bigskip
+\small First Edition
+}
+\date{\small\today}
+
+\begin{multicols*}{3}
+\maketitle
+\section*{Objective}
+In each \textsc{game} of Rummikub, the player's objective is to \textsc{go out}
+	by playing every tile in their rack. At the end of the \textsc{session},
+	the \textsc{score} is calculated and one player wins.
+
+\section*{Setup}
+
+Rummikub requires ample space for both the tiles that have been played (the
+	\textsc{board}) and for the face-down tiles which have not yet been
+	drawn (the \textsc{pile}). Make sure that players can see the entire
+	\textsc{board} and can easily reach the \textsc{pile}.
+
+\subsection*{Scoring}
+
+Before starting a \textsc{session}, players should agree on a method for keeping
+	\textsc{score}. They may also elect a scorekeeper for their convenience.
+	Popular scorekeeping methods include:
+\begin{itemize}
+	\item \textit{Points} --- At the end of each \textsc{game}, players
+		total up the value of their remaining tiles and add it to a
+		running total for the \textsc{session}. When the
+		\textsc{session} ends, the player with the \textit{least} points
+		wins.
+	\item \textit{Games} --- For every \textsc{game} in which a player
+		\textsc{goes out}, that player receives one point towards a
+		running total. When the \textsc{session} ends, the player with
+		the \textit{most} points wins.
+\end{itemize}
+
+\noindent After deciding how to keep \textsc{score}, the players may optionally
+	\footnote{Often, the end of the \textsc{session} is decided while
+	underway and/or in an ad-hoc manner (\textit{e.g.} people are tired of
+	playing, a player is leaving, \textit{etc.})} decide how many
+	\textsc{games} will be played in the \textsc{session}.
+
+\medskip
+\noindent Next, take the following steps:
+
+\begin{enumerate}
+	\item Place the tiles face-down on the table and mix them thoroughly.
+	\item \label{itm:setup-first-player}Each player picks a tile (highest
+		number wins) to determine who will go first.
+	\item Return the tiles to the table and mix thoroughly.
+	\item Each player takes 14 tiles and places them on their rack.
+	\item Clear a space in the center of the table for the \textsc{board}.
+		Group the remaining face-down tiles of the \textsc{pile}
+		wherever convenient.
+\end{enumerate}
+
+\section*{Gameplay}
+Starting with the player who won the draw, each player takes their turn before
+	play passes clockwise. Each turn, a player must either \textsc{play} or
+	\textsc{draw} a tile. Players who cannot make a legal \textsc{play} must
+	\textsc{draw}.\footnote{Technically, players who can make a legal
+	\textsc{play} can still opt to \textsc{draw}.}
+
+\subsection*{Tile Arrangements}
+
+At the end of every player's turn, the \textsc{board} must be in a legal state.
+A legal \textsc{board} is comprised of one or more of the following
+\textsc{sets}:
+
+\begin{itemize}
+	\item \textsc{group} --- A set of three (3) or more tiles of the same
+		value and different colors. Colors cannot be repeated, so the
+		largest possible \textsc{group} is four tiles (one of each
+		color).
+	\item \textsc{run} --- A set of three (3) or more tiles with sequential
+		values and the same color. \textsc{runs} can start and end on
+		any number. The largest possible sequence contains one of each
+		number (1 through 13).
+\end{itemize}
+
+\subsection*{Making a Play}
+
+A \textsc{play} is a sequence of one or more actions to change the state of the
+\textsc{board}.
+
+\begin{itemize}
+	\item \textit{\textsc{melding}} --- Each \textsc{game}, each player must
+		meld before taking any other actions. Once a player has
+		\textsc{melded}, their \textsc{play} for that turn can include
+		other actions in this list. See Melding for more detail.
+	\item \textit{Placing a \textsc{set}} --- Place three or more tiles onto
+		the \textsc{board} to form a legal \textsc{set}.
+	\item \textit{Adding to a \textsc{set}} --- Add any number of non-joker
+		tiles to an existing \textsc{set} to form a new legal
+		\textsc{set}. See The Joker for more detail.
+	\item \textit{Rearranging \textsc{sets}} --- Rearrange one or more
+		existing \textsc{sets} into a new legal configuration. Existing
+		\textsc{sets} containing jokers have restrictions. See The Joker
+		for more detail.
+	\item \textit{Reusing a joker} --- See The Joker - Reuse for details on
+		how to replace and reuse a joker.
+\end{itemize}
+
+Players are generally allowed to revise their actions any number of times before
+completing their \textsc{play}. As long as the special constraints around
+\textsc{melding} and the use of the joker are honored, the main requirement is
+that the \textsc{board} is left in a legal state when the \textsc{play} ends.
+
+Once a player has finished their \textsc{play}, they should verbally indicate to
+the next player that they have completed their turn.
+
+\subsection*{Melding}
+\label{sec:melding}
+
+At the beginning of each \textsc{game}, players must first \textsc{meld} before
+they can participate in regular play. If a player does not have the necessary
+tiles to \textsc{meld}, they must \textsc{draw}.
+
+To \textsc{meld}, players must form one or more legal \textsc{sets} \textit{only
+using tiles from their rack}. The sum of the face value of the tiles used must
+meet or exceed 30 points\footnote{If a \textsc{set} used to \textsc{meld}
+contains a joker, its face value is counted towards the sum as if it was the
+tile it represents.}. Place the sets on the \textsc{board} to complete the
+\textsc{meld}.
+
+As indicated in Making a Play, once a player has \textsc{melded}, they may
+continue to take other actions as a part of their \textsc{play}.
+
+\subsection*{The Joker}
+\label{sec:joker}
+
+The two joker tiles are used to substitute as a natural tile of any value and
+color. Other than the restrictions outlined in this section, jokers function as
+if they were the tiles they represent.
+
+\subsubsection*{Placement}
+
+Unlike natural tiles, jokers cannot be added to an existing set from a player's
+rack. The only way to play a joker from the rack is to add it to the
+\textsc{board} as part of a new \textsc{set} of 3 or more tiles\footnote{In the
+unlikely event that a player has both jokers on their rack, they must satisfy
+the requirements for each joker separately. For example, two natural tiles
+cannot satisfy the requirement for both jokers as part of a 4-tile
+\textsc{set}.}.
+
+\subsubsection*{Reuse}
+
+Once a joker is on the \textsc{board}, any player can replace a joker with the
+natural tile it replaces\footnote{In a 3-tile \textsc{group}, a joker will have
+an ambiguous color representation. A player may replace it with a natural tile
+of either color.} and reuse the joker in another \textsc{set}.
+
+To accomplish this, a player must do both of the following:
+
+\begin{itemize}
+	\item Provide a tile of the correct number and color from their rack.
+		This tile will replace the joker in its current position.
+	\item Provide at least two additional tiles of the correct number and
+		color from their rack. These tiles will form a new \textsc{set}
+		along with the joker.
+\end{itemize}
+
+In the event that more than one joker is present in a \textsc{set}, each joker
+must be substituted individually as if it was the only one.
+
+\subsubsection*{Rearrangement}
+
+Unlike \textsc{sets} with only natural tiles, \textsc{sets} containing a joker
+must meet two additional restrictions:
+
+\begin{itemize}
+	\item Rearranging the \textsc{set} must be done one tile at a time and
+		must remain a legal \textsc{set} each step of the
+		way.\footnote{The rest of the \textsc{board} may be temporarily
+		illegal during the rearrangement, but not any \textsc{sets}
+		containing jokers.}
+	\item If the \textsc{set} starts the rearrangement as a \textsc{run}, it
+		cannot end it as a \textsc{group} (or vice versa).
+\end{itemize}
+
+The purpose of these restrictions is to ensure that the only way to reuse a
+joker is to meet the requirements outlined above.
+
+\medskip
+\noindent\textit{Example 1.} Imagine the following \textsc{run} of tiles
+containing a joker: 5 (orange), 6 (orange), joker. Here are some examples for
+how to modify it:
+
+\begin{itemize}
+	\item \textit{Legal} --- Adding 8 (orange) and 9 (orange) to the
+		\textsc{run} and removing 5 (orange) and 6 (orange) to use
+		elsewhere. Tile by tile, the \textsc{run} remains legal and the
+		joker continues to represent a 7 (orange) in a \textsc{run}.
+	\item \textit{Legal} --- Merging an existing \textsc{run} containing 2
+		(orange), 3 (orange) and 4 (orange). The resulting run is now 6
+		tiles.\footnote{It is technically legal to merge two
+		\textsc{runs}, each containing a joker. Combined with
+		rearrangements, some \textsc{runs} that are illegal to place may
+		legally exist on the board.}
+	\item \textit{Illegal} --- Adding 7 (blue) and 7 (black) and removing 5
+		(orange) and 6 (orange). Even though the joker ends up in a
+		legal \textsc{set}, it participated in an illegal \textsc{set}
+		as tiles were rearranged.
+	\item \textit{Illegal} --- Merging an existing \textsc{run} containing a
+		joker, 9 (orange), 10 (orange). Then, rearrange 9 (orange), 10
+		(orange), and 5 (orange) elsewhere on the board. Finally, add 5
+		(blue). This rearrangement is (perhaps surprisingly) legal up
+		until the addition of the 5 (blue). Adding the 5 (blue) would
+		cause the resulting \textsc{set} to become a \textsc{group} when
+		it started as a \textsc{run}.
+\end{itemize}
+
+\noindent\textit{Example 2.} Imagine the following \textsc{group} of tiles
+containing a joker: 11 (orange), 11 (red), joker. Here are some examples for how
+to modify it:
+
+\begin{itemize}
+	\item \textit{Legal} --- Add 11 (blue) and remove 11 (orange). Even
+		though the joker has an ambiguous color at the beginning (blue,
+		black) and a different ambiguity at the end (orange, black), the
+		set remained legal as tiles were added and subtracted.
+	\item \textit{Illegal} --- Add 10 (orange) and 10 (red) and remove 11
+		(orange) and 11 (red). Even though the joker ends in a legal
+		\textsc{set}, it participated in an illegal \textsc{set} as
+		tiles were rearranged.
+\end{itemize}
+
+\subsubsection*{Scoring}
+
+If a player still has a joker on their rack at the end of a \textsc{game}, it is
+treated as a tile with a value of 30 points for the purposes of scoring.
+
+\section*{Ending a Game}
+
+When a player \textsc{plays} the last tile on their rack, they have \textsc{gone
+out} and the game is over. According to the chosen methodology (see Scoring),
+calculate \textsc{score}.
+
+If necessary, reset the \textsc{board} for the next game (see Setup). The player
+who has \textsc{gone out} has the privilege of going first in the next game. If
+there is no next game, the \textsc{session} ends and a winner is determined.
+
+\end{multicols*}
+\end{document}
