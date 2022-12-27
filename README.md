@@ -4,11 +4,12 @@ A printable reference of family Rummikub rules typeset with LaTeX
 
 ## Current Edition
 
-The current edition of the rules is available under Releases. Similar to
-[Semantic Versioning](https://semver.org), major edition numbers indicate
-substantive changes to the rules over previous editions. Minor edition numbers
-indicate that the edition only contains cosmetic layout changes and changes to
-typographic errors.
+The current edition of the rules is available under
+[Releases](https://github.com/eduplant/rummikub/releases). Similar to [Semantic
+Versioning](https://semver.org), major edition numbers indicate substantive
+changes to the rules over previous editions. Minor edition numbers indicate that
+the edition only contains cosmetic layout changes and changes to typographic
+errors.
 
 ## Dependencies
 
